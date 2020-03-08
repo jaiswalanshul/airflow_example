@@ -47,7 +47,7 @@ t2 = SimpleHttpOperator(
     task_id = 'get_op',
     method = 'GET',
     endpoint = 'api/v1.0/nodes',
-    data = data={"param1": "value1", "param2": "value2"},
+    data = {"param1": "value1", "param2": "value2"},
     headers={},
     dag=dag,
 )
